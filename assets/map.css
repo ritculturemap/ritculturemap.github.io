@@ -6,7 +6,7 @@ body {
     background-size: 100% 100%;
 }
 /* Menu (table) Border */
-table, th, td {
+table.menu, th.menu, td.menu {
     background-color: dimgray;
     border: 2px solid black;
     border-collapse: collapse;
@@ -27,4 +27,26 @@ table, th, td {
     left: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+/* Modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+table.modal, th.modal, td.modal {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.modal-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-text {
+    overflow: hidden;
+    max-width: 36ch;
 }
