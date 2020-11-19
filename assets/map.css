@@ -41,6 +41,7 @@ tr.menu {
     left: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
 /* Map Pinpoint 2 (w/ hardcoded posistion) */
 .map-pinpoint-3 {
     height: 50px;
@@ -50,6 +51,7 @@ tr.menu {
     left: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
 /* Modal */
 .modal {
     position: absolute;
