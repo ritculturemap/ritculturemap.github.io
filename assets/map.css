@@ -18,3 +18,13 @@ table, th, td {
     width: 28px;
     padding: 5px;
 }
+/* Map Pinpoint (w/ hardcoded position) */
+.map-pinpoint {
+    height: 50px;
+    width: 34px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

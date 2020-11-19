@@ -1,3 +1,4 @@
 map.png: Screenshot taken from RIT's FMS map (https://www.rit.edu/fa/facilities/sites/rit.edu.fa.facilities/files/images/construction/2019%20Campus%20Map%20-%20Color%20-%2024x36-compressed.pdf)
+mappinpoint.png: Modified (changed color to RIT orange and added transparency); Public domain image from Wikipedia (https://en.wikipedia.org/wiki/File:174-free-google-maps-pointer.png)
 hamburger.png: Public domain image from Wikipedia (https://commons.wikimedia.org/wiki/File:Hamburger_icon.svg)
 search.svg: Modified (changed color to black); Public domain image from Wikipedia (https://en.wikipedia.org/wiki/File:Vector_search_icon.svg)
