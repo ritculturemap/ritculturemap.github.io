@@ -6,9 +6,13 @@ body {
     background-size: 100% 100%;
 }
 /* Menu (table) Border */
-table.menu, th.menu, td.menu {
+table.menu, td.menu {
     background-color: dimgray;
     border: 2px solid black;
+    border-collapse: collapse;
+}
+tr.menu {
+    border: 1px solid black;
     border-collapse: collapse;
 }
 /* Menu Icons (align in the middle vertically and standard size) */
