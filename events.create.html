@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>RIT Culture Map</title>
+        <link type="text/css" rel="stylesheet" href="assets/map.css">
+    </head>
+
+    <body>
+        <!-- Create an Event Modal -->
+        <table class="modal">
+            <!-- Header -->
+            <tr>
+                <td>
+                    <a href="events.html"><---</a>
+                </td>
+                <td>
+                    <h2 align="center">Create an Event</h2>
+                </td>
+            </tr>
+            <!-- Body -->
+            <tr>
+                <td colspan="2">
+                    <form action="events.html">
+                        <label for="title">Title: </label>
+                        <input type="text" id="title" />
+                        <br />
+                        <label for="date">Date: </label>
+                        <input type="date" id="date" />
+                        <br />
+                        <label for="timeStart">Time: </label>
+                        <input type="time" id="timeStart" />
+                        <label for="timeEnd"> to </label>
+                        <input type="time" id="timeEnd" />
+                        <br />
+                        <label for="maxPeople">Max People: </label>
+                        <input type="number" id="maxPeople" />
+                        <br />
+                        <input type="submit" value="Create" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Map Pinpoint -->
+        <a href="#"><img src="assets/images/mappinpoint.png" alt="Point of Interest" class="map-pinpoint" /></a>
+    </body>
+
+</html>
